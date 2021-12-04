@@ -20,15 +20,12 @@ class Patient {
     void bmi()
     {
         double bmi;
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enetr BMI");
-        bmi = in.nextFloat();
-
         bmi = (weight/(height*height))*703;
         System.out.println("Your Enter Name "+name);
         System.out.println("Your Enter Weight "+weight);
         System.out.println("Your Enter Height "+height);
-        System.out.println("Your Enter " +bmi);
+        System.out.println("Your Enter Bmi is  "+bmi);
+
     }
 
 }
